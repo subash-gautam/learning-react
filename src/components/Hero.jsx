@@ -1,6 +1,9 @@
 import React from "react";
 
-const Hero = ({ title, subtitle }) => {
+const Hero = ({
+    title = "Default title",
+    subtitle = "default subtitle goes like this....",
+}) => {
     return (
         <>
             {/* <!-- Hero --> */}
